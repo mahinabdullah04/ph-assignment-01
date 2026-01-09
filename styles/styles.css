@@ -67,18 +67,21 @@
   font-weight: bold;
   color: white;
   line-height: 84px;
+  text-shadow: 2px 2px 10px #000000;
 }
 .hero .hero-text #note {
   font-size: 72px;
   font-weight: bold;
   color: #30b868;
   line-height: 84px;
+  text-shadow: 2px 2px 10px #000000;
 }
 .hero .hero-text p {
   font-size: 18px;
   line-height: 30px;
   color: white;
   margin-bottom: 32px;
+  max-width: 700px;
 }
 
 .hero .hero-buttons .transparent-btn {
