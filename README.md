@@ -1,148 +1,110 @@
-## 🌟 WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-001 😎
+# Personal Knowledge Vault - Landing Page
 
----
+A modern landing page for a note-taking and knowledge management application. Built with clean HTML and CSS, featuring smooth animations and an intuitive user interface.
 
-📅 Deadline For 60 marks: 9th January, 2026 (11:59 pm ⏱️)
+## 🎯 Features
 
-📅 Deadline For 50 marks: 10th January, 2026 (11:59 pm ⏱️)
+- **Modern UI/UX** - Clean and professional interface with smooth hover effects
+- **Font Awesome Icons** - Enhanced visual elements with icon integration
+- **Custom Hero Section** - Eye-catching hero with background image
+- **Interactive Cards** - Hover effects on note cards for better user engagement
+- **Social Media Integration** - Footer with social media links
 
-📅 Deadline For 30 marks: Any time after 10th January.
-
-## 🔗 Resources
-
-- **Figma Design:**
-  [https://www.figma.com/design/oMYH7Ccj6UU8MKZwuGiAXB/KnowledgeVault---L1]
-
-## ❓ Common Questions & Answers
-
-**Can I use different images?**
-
-- Yes, you may use any relevant images.
-
-**Can I change the alignment and design freely?**
-
-- No. You must follow the alignment and layout shown in the Figma design.
-
-**Can I change colors?**
-
-- Yes, as long as the colors are relevant and visually consistent.
-
-**Do I need to make the page pixel-perfect?**
-
-- No. You can use your own margin and padding while following the overall structure from Figma.
-
----
-
-## 📌 Assignment Requirements
-
-### ✅ Main Requirements (50 Marks)
-
-### 🔹 Navbar Section
-
-![Navbar Section](Sections/Navbar.png)
-
-- A logo aligned to the left
-- Menu items centered (as shown in Figma)
-- A button aligned to the right
-
----
-
-### 🔹 Banner Section
-
-![Banner Section](Sections/Banner.png)
-
-- A full-width background image
-- Center-aligned heading and text (as per Figma)
-- Two buttons below the text, aligned like the Figma design
-
----
-
-### 🔹 Notes Section
-
-![Notes Section](Sections/Notes%20Section.png)
-
-- Section heading and subtitle at the top
-- Four cards aligned in a single row
-- Each card must include:
-
-  - An icon
-  - Icon background color similar to Figma
-  - A title and subtitle
-
----
-
-### 🔹 Second Brain Section
-
-![Second Brain Section](Sections/Second%20Brain%20Section.png)
-
-- An image on the left
-- On the right side:
-
-  - Section message
-  - Title
-  - Description
-
-- A list of items below the description
-
----
-
-### 🔹 Footer Section
-
-![Footer Section](Sections/Footer.png)
-
-- A logo on the left
-- Social media links with icons on the right
-- A horizontal divider
-- Copyright message below the divider
-
----
-
-## 🚀 CHALLENGES (10 Marks)
-
-### 🔸 Early Access Section
-
-![Early Access Section](Sections/Early%20Access%20Section.png)
-
-- A centered title and subtitle
-- Below the subtitle:
-
-  - A simple message
-  - A “Get Early Access” button with an icon
-
-- Two ending messages below the button
-
----
-
-### 🔸 Interaction & Code Quality
-
-- Hover effects on all buttons
-- Minimum **5 GitHub commits**
-- **No Lorem Ipsum** text anywhere on the website
-
----
-
-## 🛠️ Tech Stack
+## 🚀 Technologies Used
 
 - HTML5
 - CSS3
-- No JavaScript
-- No CSS frameworks or libraries
+- Google Fonts (Inter)
+- Font Awesome 7.0.1
 
----
+## 📁 Project Structure
 
-## ✅ Submission Checklist
+```
+knowledge-vault/
+│
+├── index.html
+├── styles/
+│   └── styles.css
+├── assets/
+│   ├── logo-navbar.png
+│   ├── logo-footer.png
+│   ├── hero-bg.png
+│   ├── knowledge.png
+│   ├── Vector.png
+│   ├── Bookmarks.png
+│   ├── Brain.png
+│   ├── Info.png
+│   ├── CheckCircle.png
+│   ├── twitter.png
+│   ├── linkedin.png
+│   └── facebook.png
+└── README.md
+```
 
-- Figma layout followed correctly
-- Proper alignment and spacing
-- Clean and readable HTML & CSS
-- Live site deployed
-- Public GitHub repository
+## 🎨 Design Highlights
 
----
+### Color Palette
 
-## 📂 Submission Format
+- Primary Green: `#30b868`
+- Dark Blue: `#001931`
+- Gray Text: `#627382`
+- Background: `#f7f6f2`
 
-- **GitHub Repository Link**
-- **Live Website Link (GitHub Pages)**
+### Sections
+
+1. **Navigation Bar** - Clean navigation with logo and action button
+2. **Hero Section** - Full-width hero with compelling headline
+3. **Problem Section** - Four card layout highlighting user pain points
+4. **Solution Section** - Feature list with visual illustration
+5. **Challenge Section** - Final engagement section
+6. **Footer** - Social links and copyright information
+
+## 🌟 Key Features Showcase
+
+### Interactive Hover Effects
+
+- Navigation links change color on hover
+- Buttons have lift and shadow effects
+- Cards elevate with background color change
+- Social icons respond to user interaction
+
+### Typography
+
+- **Headings**: Bold, large headlines for maximum impact
+- **Body Text**: Clean, readable Inter font
+- **Spacing**: Generous line-height for improved readability
+
+## 🔧 Customization
+
+### Changing Colors
+
+Update the CSS variables in `styles.css`:
+
+```css
+/* Primary brand color */
+.green-btn {
+  background-color: #30b868; /* Change this */
+}
+```
+
+### Modifying Content
+
+Edit the text content directly in `index.html`:
+
+```html
+<h1>Your Custom Headline</h1>
+<p>Your custom description text</p>
+```
+
+## 👤 Author
+
+Your Name
+
+- GitHub: [@mahinabdullah04](https://github.com/mahinabdullah04)
+- LinkedIn: [Mahin Abdullah](https://www.linkedin.com/in/mahinabdullah4/)
+
+## ⭐ Show your support
+
+Give a ⭐️ if you like this project!
 
 ---
