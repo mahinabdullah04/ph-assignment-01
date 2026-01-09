@@ -20,6 +20,10 @@
   align-items: center;
   font-weight: 500;
 }
+.nav-text p:hover {
+  cursor: pointer;
+  color: #0070d9;
+}
 .nav-container .nav-img {
   width: 139px;
   align-items: center;
@@ -35,6 +39,11 @@
   margin-bottom: 24px;
   border-radius: 5px;
   height: 52px;
+}
+.green-btn:hover {
+  cursor: pointer;
+  background-color: #28a057;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }
 
 .hero {
@@ -54,6 +63,11 @@
 .hero .early-access-button {
   display: flex;
   justify-content: center;
+}
+.early-access-button button:hover {
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  background-color: rgb(233, 233, 233);
 }
 .hero .early-btn {
   color: #30b868;
@@ -97,6 +111,11 @@
   margin-left: 7px;
   height: 52px;
 }
+.transparent-btn:hover {
+  cursor: pointer;
+
+  box-shadow: 0 5px 15px #28a057;
+}
 .note {
   display: flex;
   flex-direction: column;
@@ -136,6 +155,10 @@
   box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.139);
   padding-left: 24px;
   padding-right: 24px;
+}
+.note-card:hover {
+  cursor: pointer;
+  background-color: rgb(233, 233, 233);
 }
 .note .note-card h3 {
   font-size: 24px;
@@ -261,6 +284,10 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-top: 16px;
+}
+.social-icons img:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(29, 161, 242, 0.5);
 }
 .footer-lower p {
   color: white;
