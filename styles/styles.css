@@ -24,7 +24,7 @@
   width: 139px;
 }
 .green-btn {
-  padding: 12.5px 16px;
+  padding: 16px 16.5px;
   background-color: #30b868;
   border: none;
   color: white;
@@ -153,6 +153,9 @@
 }
 .solution {
   margin: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .solution .solution-container {
   display: flex;
@@ -187,4 +190,24 @@
   display: flex;
   gap: 8px;
   margin-bottom: 16px;
+}
+.challenge-container {
+  background-color: #f7f6f2;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1360px;
+}
+.challenge-header h2 {
+  font-size: 48px;
+  font-weight: bold;
+  padding-top: 80px;
+  margin-bottom: 16px;
+}
+.challenge-text p {
+  line-height: 24px;
+  font-size: 16px;
+  color: #627382;
+}
+.challenge-text-last p {
+  margin-bottom: 80px;
 }
