@@ -151,3 +151,40 @@
   padding: 16px;
   margin-bottom: 24px;
 }
+.solution {
+  margin: 120px;
+}
+.solution .solution-container {
+  display: flex;
+  justify-content: space-between;
+}
+.solution-container .solution-text {
+  margin-top: 102px;
+  margin-bottom: 102px;
+  margin-left: 60px;
+}
+.solution-text-upper h6 {
+  font-weight: 500;
+  color: #30b868;
+  margin-bottom: 16px;
+  font-size: 16px;
+  max-width: 700px;
+}
+.solution-text-upper h2 {
+  font-weight: bold;
+  color: #001931;
+  font-size: 48px;
+  line-height: auto;
+}
+.solution-text-upper p {
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+.solution-text-lower {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
