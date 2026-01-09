@@ -22,6 +22,8 @@
 }
 .nav-container .nav-img {
   width: 139px;
+  align-items: center;
+  margin-top: 16px;
 }
 .green-btn {
   padding: 16px 16.5px;
@@ -58,6 +60,7 @@
   border-radius: 20px;
   padding: 8px 12px;
   font-weight: 500;
+  border: none;
 }
 .hero .hero-text-header {
   margin-bottom: 16px;
@@ -160,7 +163,6 @@
   /* margin: 120px; */
   display: flex;
   justify-content: center;
-  max-width: 1360px;
 
   margin: 0 auto;
   text-align: center;
@@ -176,6 +178,7 @@
   margin-top: 102px;
   margin-bottom: 102px;
   margin-left: 60px;
+  text-align: left;
 }
 .solution-text-upper h6 {
   font-weight: 500;
