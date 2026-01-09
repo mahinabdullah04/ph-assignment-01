@@ -29,6 +29,63 @@
   border: none;
   color: white;
   font-weight: 600;
-  margin-top: 24;
-  margin-bottom: 24;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 5px;
+}
+
+.hero {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 674px;
+}
+.hero-container {
+  max-width: 770px;
+  text-align: center;
+}
+.hero .early-access-button {
+  display: flex;
+  justify-content: center;
+}
+.hero .early-btn {
+  color: #30b868;
+  border-radius: 20px;
+  padding: 8px 12px;
+  font-weight: 500;
+}
+.hero .hero-text-header {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+.hero .hero-text #structured {
+  font-size: 72px;
+  font-weight: bold;
+  color: white;
+  line-height: 84px;
+}
+.hero .hero-text #note {
+  font-size: 72px;
+  font-weight: bold;
+  color: #30b868;
+  line-height: 84px;
+}
+.hero .hero-text p {
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+  margin-bottom: 32px;
+}
+
+.hero .hero-buttons .transparent-btn {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  padding: 12.5px 16px;
+  border-radius: 5px;
+  margin-left: 7px;
 }
